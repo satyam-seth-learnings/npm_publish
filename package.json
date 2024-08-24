@@ -1,0 +1,28 @@
+{
+  "name": "@satyam-seth-learnings/gen-random-color",
+  "version": "1.0.0",
+  "description": "A lightweight JavaScript library for generating random colors in multiple formats (HEX, RGB, HSL).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/gen-random-color.git"
+  },
+  "keywords": [
+    "color",
+    "random",
+    "generator",
+    "palette",
+    "HEX",
+    "RGB",
+    "HSL",
+    "JavaScript",
+    "npm",
+    "web development"
+  ],
+  "author": "Satyam Seth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yourusername/gen-random-color/issues"
+  },
+  "homepage": "https://github.com/yourusername/gen-random-color#readme"
+}
