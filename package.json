@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/gen-random-color.git"
+    "url": "git+https://github.com/satyam-seth-learnings/gen-random-color.git"
   },
   "keywords": [
     "color",
@@ -22,7 +22,7 @@
   "author": "Satyam Seth",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yourusername/gen-random-color/issues"
+    "url": "https://github.com/satyam-seth-learnings/gen-random-color/issues"
   },
-  "homepage": "https://github.com/yourusername/gen-random-color#readme"
+  "homepage": "https://github.com/satyam-seth-learnings/gen-random-color#readme"
 }
