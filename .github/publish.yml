@@ -1,0 +1,25 @@
+name: Package Publish
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: 'Package Publish 📢'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 'Checkout code'
+        uses: actions/checkout@v3
+
+      - name: 'Setup node'
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20.10.0
+
+      - name: Publish to npm
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
